@@ -146,7 +146,7 @@
                 - Enter for "URL Schemes" the following: TriPolo
             - For Android:
                 - Open AndroidManifest.xml file (android/app/src/main/AndroidManifest.xml)
-                - Add another <intent-filter> like this:
+                - Add another ```<intent-filter>``` like this:
                     ```diff
                     <manifest xmlns:android="http://schemas.android.com/apk/res/android"
                               package="com.tripolo">
