@@ -77,7 +77,7 @@
                 - Open application in Xcode
                 - Drag the file **RCTLinking.xcodeproj** to **Libraries**
                 - Click on **AppDelegate.m** file and add to it the following:
-                    ```deff
+                    ```diff
                     /**
                      * Copyright (c) Facebook, Inc. and its affiliates.
                      *
@@ -147,7 +147,7 @@
             - For Android:
                 - Open AndroidManifest.xml file (android/app/src/main/AndroidManifest.xml)
                 - Add another <intent-filter> like this:
-                    ```deff
+                    ```diff
                     <manifest xmlns:android="http://schemas.android.com/apk/res/android"
                               package="com.tripolo">
                     
